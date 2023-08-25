@@ -24,6 +24,8 @@ body {
   background-color: #ffffff;
   font-size: 16px;
   letter-spacing: 0.02em;
+  min-width: 320px;
+  overflow: hidden;
 }
 
 html {
@@ -354,8 +356,7 @@ nav a:focus,
 
 .team-section {
   background-color: var(--cloud);
-
-  width: 100vw;
+  min-width: 400px;
 }
 .team-section_list {
   display: flex;
@@ -440,6 +441,7 @@ nav a:focus,
 .footer-section {
   background-color: var(--navy-blue);
   padding: 100px 0;
+  width: 100%;
 }
 
 .footer-logo {
