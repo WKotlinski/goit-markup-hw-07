@@ -156,7 +156,7 @@ header .container {
 
 .after-class::after {
   position: relative;
-  inset-block-end: -22.6px;
+  inset-block-end: -18.6px;
   content: "";
   display: block;
   width: 100%;
@@ -535,8 +535,6 @@ footer .social-media-icon-svg {
 .subscription-box {
   display: flex;
   flex-direction: column;
-
-  gap: 0;
 }
 .sub-box {
   margin-top: 16px;
@@ -1034,8 +1032,7 @@ input[type="checkbox"] {
   .footer-logo {
     text-align: start;
   }
-  .social-header {
-  }
+
   .social-media-section {
     align-items: start;
     margin-inline-start: 24px;
@@ -1051,6 +1048,23 @@ input[type="checkbox"] {
   .container {
     width: 1158px;
   }
+  .after-class::after {
+    inset-block-end: -23px;
+  }
+  .contacts-list {
+    flex-direction: row;
+  }
+  nav ul {
+    margin-inline-start: 76px;
+  }
+  .contacts-list .nav-list-item {
+    color: var(--slate, #434455);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+  }
   .hero-section {
     background-image: linear-gradient(
         to bottom,
@@ -1058,7 +1072,8 @@ input[type="checkbox"] {
         hsla(237, 18%, 22%, 0.7)
       ),
       url(../images/background.jpg);
-    width: 1440px;
+    min-width: 1158px;
+    height: 600px;
   }
   .main-article_list {
     flex-direction: row;
@@ -1069,8 +1084,6 @@ input[type="checkbox"] {
   }
   .main-article h3 {
     color: var(--navyblue, #2e2f42);
-
-    /* Header 3 */
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -1091,7 +1104,29 @@ input[type="checkbox"] {
   .main-article-svg {
     display: flex;
   }
+  .doing-section {
+    display: flex;
+  }
+  .team-section_list {
+    flex-wrap: nowrap;
+  }
   .customers-list {
     flex-wrap: nowrap;
+  }
+  footer .container {
+    flex-wrap: nowrap;
+  }
+  footer .social-media-section {
+    margin-inline-start: 120px;
+  }
+  .subscription-box {
+    margin-inline-start: 80px;
+  }
+  .sub-box {
+    margin-block-start: 0;
+  }
+  .sub-box input {
+    width: 264px;
+    margin-inline-end: 0px;
   }
 }
