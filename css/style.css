@@ -328,6 +328,7 @@ nav a:focus,
   line-height: 1.5;
   font-weight: 500;
   margin-top: 8px;
+  margin-bottom: 72px;
 }
 
 /* Sekcja poswiacona what are we doing */
@@ -938,9 +939,7 @@ input[type="checkbox"] {
   color: var(--navy-blue);
   text-decoration: none;
 }
-.mobile-menu .link:hover {
-  background-color: var(--green);
-}
+
 .mobile-menu-social-media-icons {
   display: flex;
   justify-content: space-between;
