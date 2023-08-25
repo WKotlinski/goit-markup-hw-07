@@ -35,7 +35,7 @@ html {
 
 .container {
   width: 480px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   padding: 0 16px;
   outline: var(--outline-1);
 }
@@ -154,14 +154,6 @@ header .container {
   align-items: center;
   color: var(--navy-blue);
 }
-/* nav {
-  position: relative;
-  margin-left: 76px;
-} */
-
-/* nav ul {
-  gap: 40px;
-} */
 
 .after-class::after {
   position: relative;
@@ -242,7 +234,7 @@ nav a:focus,
   display: flex;
   align-items: center;
   gap: 72px;
-  /* position: absolute; */
+
   background-color: var(--navy-blue);
   background-image: linear-gradient(
       to bottom,
@@ -256,7 +248,7 @@ nav a:focus,
   background-size: cover;
   width: 480px;
   height: 432px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   padding: 188px 0;
   text-align: center;
 }
