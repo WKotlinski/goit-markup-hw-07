@@ -34,10 +34,10 @@ html {
 }
 
 .container {
-  width: 428px;
+  width: 480px;
   margin: 0 auto;
   padding: 0 16px;
-  /* outline: var(--outline-1); */
+  outline: var(--outline-1);
 }
 
 .section {
@@ -253,7 +253,7 @@ nav a:focus,
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 428px;
+  width: 480px;
   height: 432px;
   margin: 0 auto;
   padding: 188px 0;
@@ -292,8 +292,10 @@ nav a:focus,
 /* Sekcja głownego artykułu */
 
 .main-article_list {
-  display: block;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-article-list-item {
@@ -963,4 +965,10 @@ input[type="checkbox"] {
 }
 .mobile-menu-social-media-icons a:hover {
   background-color: var(--green);
+}
+/* Tabel */
+@media (min-width: 768px) {
+}
+/* Desktop */
+@media (min-width: 1200px) {
 }
