@@ -242,6 +242,7 @@ nav a:focus,
   display: flex;
   align-items: center;
   gap: 72px;
+  position: absolute;
   background-color: var(--navy-blue);
   background-image: linear-gradient(
       to bottom,
