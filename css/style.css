@@ -1006,7 +1006,7 @@ input[type="checkbox"] {
         hsla(237, 18%, 22%, 0.7),
         hsla(237, 18%, 22%, 0.7)
       ),
-      url(/images/tabletbg1.jpg);
+      url(../images/tabletbg1.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -1017,7 +1017,7 @@ input[type="checkbox"] {
           hsla(237, 18%, 22%, 0.7),
           hsla(237, 18%, 22%, 0.7)
         ),
-        url(/images/2x/tabletbg2x.jpg);
+        url(../images/2x/tabletbg2x.jpg);
     }
   }
   .hero-section h1 {
@@ -1105,7 +1105,7 @@ input[type="checkbox"] {
         hsla(237, 18%, 22%, 0.7),
         hsla(237, 18%, 22%, 0.7)
       ),
-      url(/images/officebg1.jpg);
+      url(../images/officebg1.jpg);
     min-width: 1440px;
     height: 600px;
     margin: 0;
@@ -1119,7 +1119,7 @@ input[type="checkbox"] {
           hsla(237, 18%, 22%, 0.7),
           hsla(237, 18%, 22%, 0.7)
         ),
-        url(/images/2x/officebg2x.jpg);
+        url(../images/2x/officebg2x.jpg);
     }
   }
 
